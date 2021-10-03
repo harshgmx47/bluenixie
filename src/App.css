@@ -62,3 +62,14 @@
   left:0;
   width:100%;
 }
+
+.socialIcon{
+  margin: 10px;
+}
+.signinBtn{
+  display: flex;
+  float: right;
+  position: absolute;
+    right: 50px;
+  max-width: 100%;
+}
