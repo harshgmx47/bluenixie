@@ -2,13 +2,13 @@ import React from "react";
 import NavBar from '../../NavBar/NavBar';
 import FootBar from '../../NavBar/FootBar';
 
-function Shop() {
+function Contact() {
     return(
         <div>
         <NavBar />
-        Shop Goes Here ... !
+        Contact Goes Here ... !
         <FootBar />
         </div>
     );
 };
-export default Shop; 
+export default Contact; 

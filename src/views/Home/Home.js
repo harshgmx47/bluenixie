@@ -1,9 +1,9 @@
 import React from "react";
-const Home = props => {
+import App from '../../App';
+function Home(){
     return(
         <div>
-            <h3>About View</h3>
-            <p>This is a About page</p>
+            <App />
         </div>
     );
 };

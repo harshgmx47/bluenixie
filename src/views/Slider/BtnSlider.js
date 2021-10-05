@@ -12,7 +12,7 @@ export default function BtnSlider({direction,moveSlide}){
         onClick={moveSlide}
         className={direction === "next" ? 'btn-slide next':
          "btn-slide prev"}>
-            <img className="img-responsive" 
+            <img className="img-responsive" alt="button" 
             src={direction === "next" ? rightArrow : lefArrow} />
         </button>
         </div>

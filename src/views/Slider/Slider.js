@@ -35,7 +35,7 @@ return(
                 className={slideIndex === index + 1 ? 
                     "slide active-anim": "slide"}
                 >
-                    <img className="banner" 
+                    <img className="banner" alt="banner" 
                     src={process.env.PUBLIC_URL + `/Imgs/img${index + 1}.jpg`}
                      />
                 </div>

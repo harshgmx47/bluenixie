@@ -1,10 +1,14 @@
 import React from "react";
-const About = props => {
+import NavBar from '../../NavBar/NavBar';
+import FootBar from '../../NavBar/FootBar';
+
+function About() {
     return(
         <div>
-            <h3>About View</h3>
-            <p>This is a About page</p>
+        <NavBar />
+        About Goes Here ... !
+        <FootBar />
         </div>
     );
 };
-export default About;
+export default About; 

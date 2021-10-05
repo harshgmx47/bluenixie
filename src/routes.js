@@ -3,10 +3,9 @@ import { BrowserRouter as Router,Route,Switch,Redirect } from 'react-router-dom'
 import {Home} from './views/Home';
 import {About} from './views/About';
 import {Shop} from './views/Shop';
-// import {Slider} from './views/Slider/Slider';
-import {Slider} from './views/Slider';
-import App from './App';
-//import { NavBar } from "./NavBar";
+import {Offer} from './views/Offer';
+import {Contact} from './views/Contact';
+import {SignIn} from './views/SignIn';
 
 
  export const Routes = () => {
@@ -14,14 +13,15 @@ import App from './App';
          <div>
              <Router>
              <Switch>
-                 <Route exact path="/App" component ={App} />
                  <Route exact path="/Home" component={Home}/>
-                 <Route exact path="/Slider"  component={Slider} />
-                 { <Route exact path="/">
-                     <Redirect to="/App" />
-                 </Route> }
                  <Route exact path="/About" component={About} />
                  <Route exact path="/Shop" component={Shop} />
+                 <Route exact path="/Offer" component={Offer} />
+                 <Route exact path="/Contact" component={Contact} />
+                 <Route exact path="/SignIn" component={SignIn} />
+                 { <Route exact path="/">
+                     <Redirect to="/Home" />
+                 </Route> }
              </Switch>
              </Router>
          </div>
