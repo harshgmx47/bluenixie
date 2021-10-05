@@ -6,6 +6,7 @@ import smallimg1 from './img/small-img-1.jpg'
 import smallimg2 from './img/small-img-2.jpg'
 import newArrival from './img/new-arrival.jpg'
 
+
 import './App.css';
 import {
   MDBNavbar,
@@ -19,6 +20,7 @@ import {
 
   import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch, faShoppingCart, faHeart } from '@fortawesome/free-solid-svg-icons'
+import Slider from './views/Slider/Slider';
 
 function App() {
   return (
@@ -77,18 +79,7 @@ function App() {
         className='p-5 text-center bg-image '
         style={{ height: 550 }}
       >
-        <img src={banner2} className="banner" alt="banner" />
-        <div className='mask'>
-          <div className='d-flex justify-content-left align-items-left'>
-            <div className='text-black'>
-              <h1 className='mb-3'>Top Trending</h1>
-              <h4 className='mb-3'>Pink Color</h4>
-              <a className='btn btn-outline-dark btn-lg' href='#!' role='button'>
-                Discover Now
-              </a>
-            </div>
-          </div>
-        </div>
+      <Slider />
       </div>
 <div className="row">
 
@@ -96,7 +87,8 @@ function App() {
         className='p-5 text-center bg-image col-lg-3'
         style={{ height: 380 }}
       >
-        <img src={smallimg1} className="smallimg" alt="banner" />
+        <div className="position-relative">
+        <img src={smallimg1} className="img-fluid" alt="banner" />
         <div className='mask'>
           <div className='d-flex justify-content-center align-items-center'>
             <div className='text-black'>
@@ -105,11 +97,12 @@ function App() {
             </div>
           </div>
         </div>
+        </div>
       </div>
       <div
         className='p-5 text-center bg-image col-lg-6'
         style={{ height: 380 }}
-      >
+      ><div className="position-relative">
         <img src={banner1} className="smallimg" alt="banner" />
         <div className='mask'>
           <div className='d-flex justify-content-center align-items-center'>
@@ -119,19 +112,22 @@ function App() {
             </div>
           </div>
         </div>
+        </div>
       </div>
       <div
         className='p-5 text-center bg-image col-lg-3'
         style={{ height: 380 }}
       >
+        <div className="position-relative">
         <img src={smallimg2} className="smallimg" alt="banner" />
         <div className='mask'>
           <div className='d-flex justify-content-center align-items-center'>
-            <div className='text-black'>
+            <div className='text-over'>
               <h2>Bag.No1</h2>
               <h5>Big Sale No Limited</h5>
             </div>
           </div>
+        </div>
         </div>
       </div>
 </div>
@@ -141,58 +137,68 @@ function App() {
         className='p-5 text-left bg-image col-lg-3'
         style={{ height: 420 }}
       >
+        <div className="position-relative">
         <img src={newArrival} className="smallimg" alt="banner" />
         <div className='mask'>
           <div className='d-flex justify-content-left align-items-left'>
-            <div className='text-black'>
+            <div className='text-over'>
              <h6>ELIZA-BNF 357 MAROON</h6>
              <p>₹399</p>
             </div>
           </div>
+        </div>
         </div>
       </div>
       <div
         className='p-5 text-left bg-image col-lg-3'
         style={{ height: 420 }}
       >
+        <div className="position-relative">
         <img src={newArrival} className="smallimg" alt="banner" />
         <div className='mask'>
           <div className='d-flex justify-content-left align-items-left'>
-            <div className='text-black'>
+            <div className='text-over'>
              <h6>ELIZA-BNF 357 MAROON</h6>
              <p>₹399</p>
             </div>
           </div>
+        </div>
         </div>
       </div>
       <div
         className='p-5 text-left bg-image col-lg-3'
         style={{ height: 420 }}
       >
+        <div className="position-relative">
         <img src={newArrival} className="smallimg" alt="banner" />
         <div className='mask'>
           <div className='d-flex justify-content-left align-items-left'>
-            <div className='text-black'>
+            <div className='text-over'>
              <h6>ELIZA-BNF 357 MAROON</h6>
              <p>₹399</p>
             </div>
           </div>
+        </div>
         </div>
       </div>
       <div
         className='p-5 text-left bg-image col-lg-3'
         style={{ height: 420 }}
       >
+        <div className="position-relative">
         <img src={newArrival} className="smallimg" alt="banner" />
         <div className='mask'>
           <div className='d-flex justify-content-left align-items-left'>
-            <div className='text-black'>
+            <div className='text-over'>
              <h6>ELIZA-BNF 357 MAROON</h6>
              <p>₹399</p>
             </div>
           </div>
         </div>
+        </div>
       </div>
+</div>
+
       <div className='App-header'>
         <div className="row col-lg-12">
         <div className="col-lg-3">
@@ -258,7 +264,6 @@ Email: info@bluenixie.in
       </div>
         </div>
         </div>
-</div>
     </header>
    </div>
   );
