@@ -31,9 +31,9 @@ function SignIn() {
                                 <button type="submit" className="btn btn-secondary">Sign in</button>
                                 </div>
                             <div className="col-md-7">
-                                     <a href="signup" className="text-decoration-none text-monospace">
-                                     <button type="submit" className="btn btn-primary">Create a new Account..!Signup Here</button>
-                                         </a>
+                                     <a href="SignUp" className=" btn btn-primary text-monospace">
+                                    Create a new Account..! Sign Up
+                                    </a>
                                
                                 </div>                          
                             </div>
