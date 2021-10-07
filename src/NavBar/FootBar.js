@@ -1,6 +1,10 @@
 import React from "react";
+
 import payment from '../img/payment.png';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "./App.css";
 const FootBar = () => {
+     
       return (
             <div className='App-header'>
                   <div className="row col-lg-12">
@@ -63,7 +67,7 @@ const FootBar = () => {
                                     <br /><br />
                                     Email: info@bluenixie.in
                               </p>
-                              <p><img src={payment} alt="payment"></img></p>
+                              <p><img className="img-fluid" src={payment} alt="payment"></img></p>
                         </div>
                   </div>
              

@@ -7,6 +7,8 @@ import {Offer} from './views/Offer';
 import {Contact} from './views/Contact';
 import {SignIn} from './views/SignIn';
 import { SignUp } from "./views/SignUp";
+import { ShoppingCart } from "./views/ShoppingCart";
+
 
 
  export const Routes = () => {
@@ -21,6 +23,7 @@ import { SignUp } from "./views/SignUp";
                  <Route exact path="/Contact" component={Contact} />
                  <Route exact path="/SignIn" component={SignIn} />
                  <Route exact path="/SignUp" component={SignUp} />
+                 <Route exact path="/ShoppingCart" component={ShoppingCart} />
                  { <Route exact path="/">
                      <Redirect to="/Home" />
                  </Route> }

@@ -27,17 +27,17 @@ function Contact() {
         <div className="col-lg-6">
         <div className="row">
             <label className="col-lg-3"><span className="text-danger">*</span>Your Name</label>
-            <input className="col-lg-9 form-control" type="text" style={{width:400, height:25}} />
+            <input className="col-lg-9 form-control" type="text" style={{width:400, height:40}} />
         </div>
         <br/>
         <div className="row">
             <label className="col-lg-3"><span className="text-danger">*</span>Email</label>
-            <input className="col-lg-9 form-control" type="text" style={{width:400, height:25}}/>
+            <input className="col-lg-9 form-control" type="text" style={{width:400, height:40}}/>
         </div>
         <br/>
         <div className="row">
             <label className="col-lg-3"><span className="text-danger">*</span>Enquiry</label>
-            <textarea className="col-lg-9 form-control" style={{width:400, height:100}}/>
+            <textarea className="col-lg-9 form-control" style={{width:400, height:120}}/>
         </div>
         </div>
         <div className="col-lg-2">

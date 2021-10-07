@@ -2,70 +2,83 @@ import React from "react";
 import logo from '../img/logo.png';
 
 import {
-    MDBNavbar,
-    MDBNavbarNav,
-    MDBNavbarItem,
-    MDBNavbarLink,
-    MDBNavbarToggler,
-    MDBContainer,
-    MDBIcon } from 'mdb-react-ui-kit';
-    import 'bootstrap/dist/css/bootstrap.min.css';
-  
-    import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-  import { faSearch, faShoppingCart, faHeart } from '@fortawesome/free-solid-svg-icons'
+  MDBNavbar,
+  MDBNavbarNav,
+  MDBNavbarItem,
+  MDBNavbarLink,
+  MDBContainer,
+} from 'mdb-react-ui-kit';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSearch, faShoppingCart, faHeart } from '@fortawesome/free-solid-svg-icons'
 
 const NavBar = () => {
-    return(
-        <MDBNavbar expand='lg' light bgColor='white'> 
-        <MDBContainer fluid>
-          <MDBNavbarToggler
-            aria-controls='navbarExample01'
-            aria-expanded='false'
-            aria-label='Toggle navigation'
-          >
-            <MDBIcon fas icon='bars' />
-          </MDBNavbarToggler>
-          <img src={logo} className="bluenixielogo" alt="logo" />
-          <div className='collapse navbar-collapse' id='navbarExample01'>
-            <MDBNavbarNav right className='mb-2 mb-lg-0'>
-              <MDBNavbarItem>
-                <MDBNavbarLink className="small-font-navbar" href='Home'>
-                  Home
-                </MDBNavbarLink>
-              </MDBNavbarItem>
-              <MDBNavbarItem>
-                <MDBNavbarLink className="small-font-navbar" href='shop'>Shop</MDBNavbarLink>
-              </MDBNavbarItem>
-              <MDBNavbarItem>
-                <MDBNavbarLink className="small-font-navbar" href='offer'>Offer Zone</MDBNavbarLink>
-              </MDBNavbarItem>
-              <MDBNavbarItem>
-                <MDBNavbarLink className="small-font-navbar" href='about'>About Us</MDBNavbarLink>
-              </MDBNavbarItem>
-              <MDBNavbarItem>
-                <MDBNavbarLink className="small-font-navbar" href='contact'>Contact Us</MDBNavbarLink>
-              </MDBNavbarItem>
-            </MDBNavbarNav>
-            <MDBNavbarNav className='mb-2 mb-lg-0'>
-            <MDBNavbarItem className='socialIcon'>
-            <FontAwesomeIcon icon={faSearch} />
-              </MDBNavbarItem>
-              <MDBNavbarItem className='socialIcon'>
-            <FontAwesomeIcon icon={faHeart} />
-              </MDBNavbarItem>
-              <MDBNavbarItem className='socialIcon'>
-            <FontAwesomeIcon icon={faShoppingCart} />
-              </MDBNavbarItem>
-            <MDBNavbarItem className='signinBtn'>
-                <MDBNavbarLink className="small-font-navbar sign-in" href='signin'>Sign In</MDBNavbarLink>
-              </MDBNavbarItem>
-              </MDBNavbarNav>
-          </div>
-          
-        </MDBContainer>
+  return (
+    <div>
+    <MDBNavbar className="navbar navbar-expand-sm navbar-light fixed-top"  bgColor='white'>
+      <MDBContainer  fluid >
+        {/* {Brandh Logo} */}
+        <div className="container justify-content-center align-items-center">
+          <div className="row row-header">
+        <a className="navbar-brand " href="Home">
+          <img className="logo img-responsive" src={logo} height="" alt="mdb logo" />
+        </a>
+        </div>
+        </div>
+        
+          {/* {Brandh Logo} */}
+          <MDBNavbarNav right className="navbar-nav align-items-center d-lg-flex collapse navbar-collapse" id="NavBar">
+            <MDBNavbarItem className="nav-item">
+              <MDBNavbarLink className="small-font-navbar nav-link" href='Home'>
+                Home
+              </MDBNavbarLink>
+            </MDBNavbarItem>
 
-</MDBNavbar>
-    );
-    
+            <MDBNavbarItem className="nav-item px-1  mb-0 position-relative d-lg-flex">
+              <MDBNavbarLink className=" small-font-navbar  nav-link" href='shop'>Shop</MDBNavbarLink>
+            </MDBNavbarItem>
+
+            <MDBNavbarItem className="nav-item px-1  mb-0 position-relative d-lg-flex">
+              <MDBNavbarLink className=" small-font-navbar nav-link" href='offer'>Offer Zone</MDBNavbarLink>
+            </MDBNavbarItem>
+
+            <MDBNavbarItem className="nav-item px-1 mb-0 position-relative d-lg-flex">
+              <MDBNavbarLink className="small-font-navbar nav-link" href='about'>About Us</MDBNavbarLink>
+            </MDBNavbarItem>
+            
+            <MDBNavbarItem className="nav-item px-1  mb-0 position-relative d-lg-flex">
+              <MDBNavbarLink className="small-font-navbar nav-link" href='contact'>Contact Us</MDBNavbarLink>
+            </MDBNavbarItem>
+          </MDBNavbarNav>
+
+          <MDBNavbarNav className='container navbar-nav justify-content-end flex-row align-items-center '>
+            <div className="px-3">
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span className="navbar-toggler-icon"></span>
+            </button>
+            </div>
+            <MDBNavbarItem className='socialIcon nav-item px-3 text-uppercase mb-0 position-relative d-lg-flex'>
+              <FontAwesomeIcon  icon={faSearch} />
+            </MDBNavbarItem>
+            <MDBNavbarItem className='socialIcon nav-item px-3 text-uppercase mb-0 position-relative d-lg-flex'>
+              <FontAwesomeIcon icon={faHeart} />
+            </MDBNavbarItem>
+            <MDBNavbarItem className="socialIcon nav-item  text-uppercase mb-0 position-relative d-lg-flex">
+            <a className='nav-link'><FontAwesomeIcon icon={faShoppingCart} />
+              <span className="cart-basket d-flex align-items-center justify-content-center">0</span>
+            </a>
+            </MDBNavbarItem>
+            <MDBNavbarItem className='nav-item px-2 mb-0 position-relative d-lg-flex'>
+              <MDBNavbarLink className="small-font-navbar nav-link " href='signin'>Sign In</MDBNavbarLink>
+            </MDBNavbarItem>
+          </MDBNavbarNav>
+      </MDBContainer>
+    </MDBNavbar>
+    <div className="row row-space"></div>
+        </div>
+  
+  );
+
 };
 export default NavBar;

@@ -20,7 +20,7 @@ function App() {
       >
       <Slider />
       </div>
-<div className="row">
+<div className="row row-content">
 
       <div
         className='p-5 text-center bg-image col-lg-3'
