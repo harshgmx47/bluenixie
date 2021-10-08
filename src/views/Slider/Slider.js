@@ -46,11 +46,11 @@ return(
 
        
          <div className='mask'>
-          <div className='d-flex justify-content-left align-items-left'>
-            <div className='text-black'>
+          <div className='d-flex bottom-0 position-absolute m-5'>
+            <div className='text-white'>
               <h1 className='mb-3'>Top Trending</h1>
               <h4 className='mb-3'>Pink Color</h4>
-              <a className='btn btn-outline-dark btn-lg' href='#!' role='button'>
+              <a className='btn btn-outline-light btn-lg' href='#!' role='button'>
                 Discover Now
               </a>
             </div>

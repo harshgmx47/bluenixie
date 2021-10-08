@@ -70,8 +70,54 @@ function App() {
         </div>
       </div>
 </div>
-
+<div className="container">
 <div className="row">
+<div className="col-md-4 col-sm-7">
+            <div className="card mb-30"><a className="card-img-tiles" href="" data-abc="true">
+                    <div className="inner">
+                        <div className="main-img">
+                            <img className="img-thumbnail custom-img" src={newArrival} alt="Category"/>
+                            </div>
+                    </div>
+                </a>
+                <div className="card-body text-center">
+                    <h4 className="card-title">ELIZA-BNF 357 MAROON</h4>
+                    <p className="text-muted">₹399</p>
+                    <a className="btn btn-outline-primary btn-sm" href="" data-abc="true">View Products</a>
+                </div>
+            </div>
+        </div>
+        <div className="col-md-4 col-sm-7">
+            <div className="card mb-30"><a className="card-img-tiles" href="" data-abc="true">
+                    <div className="inner">
+                        <div className="main-img">
+                            <img className="img-thumbnail custom-img" src={newArrival} alt="Category"/>
+                            </div>
+                    </div>
+                </a>
+                <div className="card-body text-center">
+                    <h4 className="card-title">ELIZA-BNF 357 MAROON</h4>
+                    <p className="text-muted">₹399</p>
+                    <a className="btn btn-outline-primary btn-sm" href="" data-abc="true">View Products</a>
+                </div>
+            </div>
+        </div>
+        <div className="col-md-4 col-sm-6">
+            <div className="card mb-30"><a className="card-img-tiles" href="" data-abc="true">
+                    <div className="inner">
+                        <div className="main-img">
+                            <img className="img-thumbnail custom-img" src={newArrival} alt="Category"/>
+                            </div>
+                    </div>
+                </a>
+                <div className="card-body text-center">
+                    <h4 className="card-title">ELIZA-BNF 357 MAROON</h4>
+                    <p className="text-muted">₹399</p>
+                    <a className="btn btn-outline-primary btn-sm" href="" data-abc="true">View Products</a>
+                </div>
+            </div>
+        </div>
+  {/*
 <div
         className='p-5 text-left bg-image col-lg-3'
         style={{ height: 420 }}
@@ -136,6 +182,8 @@ function App() {
         </div>
         </div>
       </div>
+  */}
+</div>
 </div>
 
 <FootBar />
