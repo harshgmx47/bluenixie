@@ -11,7 +11,7 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSearch, faShoppingCart, faHeart } from '@fortawesome/free-solid-svg-icons'
+import { faSearch, faShoppingCart, faHeart, faUser } from '@fortawesome/free-solid-svg-icons'
 
 const NavBar = () => {
   return (
@@ -59,18 +59,23 @@ const NavBar = () => {
             </button>
             </div>
             <MDBNavbarItem className='socialIcon nav-item px-3 text-uppercase mb-0 position-relative d-lg-flex'>
-              <FontAwesomeIcon  icon={faSearch} />
+              <FontAwesomeIcon  className="m-2" icon={faSearch} />
+              <input type="text"></input>
             </MDBNavbarItem>
             <MDBNavbarItem className='socialIcon nav-item px-3 text-uppercase mb-0 position-relative d-lg-flex'>
+            <a className='nav-link' href="WishList">
               <FontAwesomeIcon icon={faHeart} />
+              </a>
             </MDBNavbarItem>
             <MDBNavbarItem className="socialIcon nav-item  text-uppercase mb-0 position-relative d-lg-flex">
-            <a className='nav-link'><FontAwesomeIcon icon={faShoppingCart} />
+            <a className='nav-link' href="ShoppingCart"><FontAwesomeIcon icon={faShoppingCart} />
               <span className="cart-basket d-flex align-items-center justify-content-center">0</span>
             </a>
             </MDBNavbarItem>
-            <MDBNavbarItem className='nav-item px-2 mb-0 position-relative d-lg-flex'>
-              <MDBNavbarLink className="small-font-navbar nav-link " href='signin'>Sign In</MDBNavbarLink>
+            <MDBNavbarItem className='socialIcon nav-item px-3 mb-0 position-relative d-lg-flex'>
+            <a className='nav-link' href="SignIn">
+              <FontAwesomeIcon icon={faUser} />
+            </a>
             </MDBNavbarItem>
           </MDBNavbarNav>
       </MDBContainer>

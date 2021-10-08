@@ -8,8 +8,7 @@ import {Contact} from './views/Contact';
 import {SignIn} from './views/SignIn';
 import { SignUp } from "./views/SignUp";
 import { ShoppingCart } from "./views/ShoppingCart";
-
-
+import { WishList } from "./views/WishList";
 
  export const Routes = () => {
      return(
@@ -24,6 +23,8 @@ import { ShoppingCart } from "./views/ShoppingCart";
                  <Route exact path="/SignIn" component={SignIn} />
                  <Route exact path="/SignUp" component={SignUp} />
                  <Route exact path="/ShoppingCart" component={ShoppingCart} />
+                 <Route exact path="/WishList" component={WishList} />
+                 
                  { <Route exact path="/">
                      <Redirect to="/Home" />
                  </Route> }

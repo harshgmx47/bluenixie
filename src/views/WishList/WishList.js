@@ -4,11 +4,12 @@ import FootBar from '../../NavBar/FootBar';
 import Card from 'react-bootstrap/Card';
 import ShopCategory1 from '../../img/shop-category-1.jpg';
 
-function ShoppingCart() {
-    return(
+
+function WishList() {
+    return (
         <div>
-        <NavBar />
-        <Card className="container col-lg-8">
+            <NavBar />
+            <Card className="container col-lg-8">
                 <Card.Body>
                     <blockquote className="blockquote mb-0 row">
                         <div className="inner col-lg-4">
@@ -33,8 +34,9 @@ function ShoppingCart() {
                 </Card.Body>
             </Card>
             <br />
-        <FootBar />
+            <FootBar />
         </div>
     );
 };
-export default ShoppingCart; 
+
+export default WishList;
