@@ -1,8 +1,8 @@
 import React from "react";
 import NavBar from '../../NavBar/NavBar';
 import FootBar from '../../NavBar/FootBar';
-import ShopImg1 from '../../img/shop-img-1.jpg';
-import ShopImg2 from '../../img/shop-img-2.jpg';
+//import ShopImg1 from '../../img/shop-img-1.jpg';
+//import ShopImg2 from '../../img/shop-img-2.jpg';
 import ShopCategory1 from '../../img/shop-category-1.jpg';
 import './shop.css'
 import 'bootstrap/dist/css/bootstrap.min.css';

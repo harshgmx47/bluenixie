@@ -50,7 +50,8 @@ body{
 }
 
 .small-font-navbar{
-  font-size:10pt;
+  font-size:9pt;
+  margin-top:10px;
   font-weight: 600;
 }
 
