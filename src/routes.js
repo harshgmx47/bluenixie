@@ -9,6 +9,9 @@ import {SignIn} from './views/SignIn';
 import { SignUp } from "./views/SignUp";
 import { ShoppingCart } from "./views/ShoppingCart";
 import { WishList } from "./views/WishList";
+import { Product } from "./views/Product";
+
+
 
  export const Routes = () => {
      return(
@@ -24,6 +27,7 @@ import { WishList } from "./views/WishList";
                  <Route exact path="/SignUp" component={SignUp} />
                  <Route exact path="/ShoppingCart" component={ShoppingCart} />
                  <Route exact path="/WishList" component={WishList} />
+                 <Route exact path="/Product" component={Product} />
                  
                  { <Route exact path="/">
                      <Redirect to="/Home" />

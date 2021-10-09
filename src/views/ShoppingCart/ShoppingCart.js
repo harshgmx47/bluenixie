@@ -29,6 +29,7 @@ function ShoppingCart() {
                                 Availability: In Stock
                             </h6>
                             <br />
+                            <button className="btn btn-danger col-lg-5">Remove</button>
                         </div>
                         <div className="col-lg-3">
                         <label className="col-md-4">Size</label> 
