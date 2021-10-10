@@ -5,7 +5,8 @@ import smallimg1 from './img/small-img-1.jpg'
 import smallimg2 from './img/small-img-2.jpg'
 import newArrival from './img/new-arrival.jpg'
 import './App.css';
-import Slider from './views/Slider/Slider';
+// import Slider from './views/Slider/Slider';
+import Banner from './views/Slider/Banner';
 import NavBar from './NavBar/NavBar';
 import FootBar from './NavBar/FootBar';
 
@@ -14,12 +15,13 @@ function App() {
     <div className="App">
        <header>
        <NavBar />
-<div
-        className='p-5 text-center bg-image '
-        style={{ height: 550 }}
-      >
-      <Slider />
+       {/* Banner Section */}
+       <div className="mt-5">
+      <Banner />
       </div>
+     {/* Banner Section */}
+
+      
 <div className="row row-content">
 
       <div
@@ -73,7 +75,7 @@ function App() {
 <div className="container">
 <div className="row">
 <div className="col-md-4 col-sm-7">
-            <div className="card mb-30"><a className="card-img-tiles" href="" data-abc="true">
+            <div className="card mb-30"><a className="card-img-tiles" href="#!" data-abc="true">
                     <div className="inner">
                         <div className="main-img">
                             <img className="img-thumbnail custom-img" src={newArrival} alt="Category"/>
@@ -83,12 +85,12 @@ function App() {
                 <div className="card-body text-center">
                     <h4 className="card-title">ELIZA-BNF 357 MAROON</h4>
                     <p className="text-muted">₹399</p>
-                    <a className="btn btn-outline-primary btn-sm" href="" data-abc="true">View Products</a>
+                    <a className="btn btn-outline-primary btn-sm" href="product" data-abc="true">View Products</a>
                 </div>
             </div>
         </div>
         <div className="col-md-4 col-sm-7">
-            <div className="card mb-30"><a className="card-img-tiles" href="" data-abc="true">
+            <div className="card mb-30"><a className="card-img-tiles" href="#!" data-abc="true">
                     <div className="inner">
                         <div className="main-img">
                             <img className="img-thumbnail custom-img" src={newArrival} alt="Category"/>
@@ -98,12 +100,12 @@ function App() {
                 <div className="card-body text-center">
                     <h4 className="card-title">ELIZA-BNF 357 MAROON</h4>
                     <p className="text-muted">₹399</p>
-                    <a className="btn btn-outline-primary btn-sm" href="" data-abc="true">View Products</a>
+                    <a className="btn btn-outline-primary btn-sm" href="#!" data-abc="true">View Products</a>
                 </div>
             </div>
         </div>
         <div className="col-md-4 col-sm-6">
-            <div className="card mb-30"><a className="card-img-tiles" href="" data-abc="true">
+            <div className="card mb-30"><a className="card-img-tiles" href="#!" data-abc="true">
                     <div className="inner">
                         <div className="main-img">
                             <img className="img-thumbnail custom-img" src={newArrival} alt="Category"/>
@@ -113,7 +115,7 @@ function App() {
                 <div className="card-body text-center">
                     <h4 className="card-title">ELIZA-BNF 357 MAROON</h4>
                     <p className="text-muted">₹399</p>
-                    <a className="btn btn-outline-primary btn-sm" href="" data-abc="true">View Products</a>
+                    <a className="btn btn-outline-primary btn-sm" href="#!" data-abc="true">View Products</a>
                 </div>
             </div>
         </div>

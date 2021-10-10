@@ -4,7 +4,7 @@ import FootBar from '../../NavBar/FootBar';
 import './product.css'
 import { img, Container, Row, Col, Button } from 'react-bootstrap/';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { MDBTable, MDBTableHead, MDBTableBody } from 'mdb-react-ui-kit';
+import { MDBTable, MDBTableBody } from 'mdb-react-ui-kit';
 // import ShopCategory1 from '../../img/shop-category-1.jpg';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
@@ -24,7 +24,7 @@ function Product() {
                                     <a href="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/15a.jpg"
                                         data-size="710x823">
                                         <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/15a.jpg"
-                                            className="img-fluid z-depth-1" />
+                                            className="img-fluid z-depth-1 " alt="" />
                                     </a>
                                 </figure>
                                 
@@ -56,28 +56,28 @@ function Product() {
                                 <div className="col-3">
                                     <div className="view overlay rounded z-depth-1 gallery-item">
                                         <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/12a.jpg"
-                                            className="img-fluid"/>
+                                            className="img-fluid" alt=""/>
                                         <div class="mask rgba-white-slight"></div>
                                     </div>
                                 </div>
                                 <div className="col-3">
                                     <div className="view overlay rounded z-depth-1 gallery-item">
                                         <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13a.jpg"
-                                            className="img-fluid"/>
-                                        <div className="mask rgba-white-slight"></div>
+                                            className="img-fluid" alt=""/>
+                                        <div className="mask rgba-white-slight" ></div>
                                     </div>
                                 </div>
                                 <div className="col-3">
                                     <div className="view overlay rounded z-depth-1 gallery-item">
                                         <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/14a.jpg"
-                                            className="img-fluid"/>
+                                            className="img-fluid" alt=""/>
                                         <div className="mask rgba-white-slight"></div>
                                     </div>
                                 </div>
                                 <div className="col-3">
                                     <div className="view overlay rounded z-depth-1 gallery-item">
                                         <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/15a.jpg"
-                                            className="img-fluid" />
+                                            className="img-fluid" alt="" />
                                         <div class ="mask rgba-white-slight">
 
                                         </div>
@@ -142,7 +142,7 @@ function Product() {
                                             <div className="mt-1">
                                                 <div className="form-check form-check-inline pl-0">
                                                     <input type="radio" className="form-check-input" id="small" name="materialExampleRadios"
-                                                        checked />
+                                                         />
                                                     <label className="form-check-label small text-uppercase card-link-secondary"
                                                         for="small">Small</label>
                                                 </div>

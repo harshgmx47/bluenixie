@@ -35,42 +35,42 @@ function Shop() {
                                                 <p>Brands</p>
                                                 <li>
                                                     <input type="radio" aria-label="radio button" />
-                                                    <a href=""> Apple</a>
+                                                    <a href="#!"> Apple</a>
                                                 </li>
                                                 <li>
                                                     <input type="radio" aria-label="radio button" />
-                                                    <a href="">Rolex</a>
+                                                    <a href="#!">Rolex</a>
                                                 </li>
                                                 <li>
                                                     <input type="radio" aria-label="radio button" />
-                                                    <a href=""> Rado</a>
+                                                    <a href="#!"> Rado</a>
                                                 </li>
                                                 <li>
                                                     <input type="radio" aria-label="radio button" />
-                                                    <a href="">Seiko</a>
+                                                    <a href="#!">Seiko</a>
                                                 </li>
                                                 <li>
                                                     <input type="radio" aria-label="radio button" />
-                                                    <a href="">Samsung</a>
+                                                    <a href="#!">Samsung</a>
                                                 </li>
                                             </ul>
                                             <ul className="list">
                                                 <p>Color</p>
                                                 <li>
                                                     <input type="radio" aria-label="radio button" />
-                                                    <a href="">Black</a>
+                                                    <a href="#!">Black</a>
                                                 </li>
                                                 <li>
                                                     <input type="radio" aria-label="radio button" />
-                                                    <a href="">Black Leather</a>
+                                                    <a href="#!">Black Leather</a>
                                                 </li>
                                                 <li>
                                                     <input type="radio" aria-label="radio button" />
-                                                    <a href="">Gold</a>
+                                                    <a href="#!">Gold</a>
                                                 </li>
                                                 <li>
                                                     <input type="radio" aria-label="radio button" />
-                                                    <a href="">Space grey</a>
+                                                    <a href="#!">Space grey</a>
                                                 </li>
 
                                             </ul>
@@ -81,7 +81,7 @@ function Shop() {
                             <div className="col-lg-9">
                                 <div className="row">
                             <div className="col-12 col-sm-7 col-md-4 ">
-                                <div className="card mb-30"><a className="card-img-tiles" href="" data-abc="true">
+                                <div className="card mb-30"><a className="card-img-tiles" href="#!" data-abc="true">
                                     <div className="inner">
                                         <div className="main-img">
                                             <img className="img-thumbnail custom-img" src={ShopCategory1} alt="Category" />
@@ -96,7 +96,7 @@ function Shop() {
                                 </div>
                             </div>
                             <div className="col-12 col-sm-7 col-md-4 ">
-                                <div className="card mb-30"><a className="card-img-tiles" href="" data-abc="true">
+                                <div className="card mb-30"><a className="card-img-tiles" href="#!" data-abc="true">
                                     <div className="inner">
                                         <div className="main-img">
                                             <img className="img-thumbnail custom-img" src={ShopCategory1} alt="Category" />
@@ -106,12 +106,12 @@ function Shop() {
                                     <div className="card-body text-center">
                                         <h4 className="card-title">Lingerie</h4>
                                         <p className="text-muted">Starting from $50</p>
-                                        <a className="btn btn-outline-primary btn-sm" href="" data-abc="true">View Products</a>
+                                        <a className="btn btn-outline-primary btn-sm" href="#!" data-abc="true">View Products</a>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-12 col-sm-7 col-md-4 ">
-                                <div className="card mb-30"><a className="card-img-tiles" href="" data-abc="true">
+                                <div className="card mb-30"><a className="card-img-tiles" href="#!" data-abc="true">
                                     <div className="inner">
                                         <div className="main-img">
                                             <img className="img-thumbnail custom-img" src={ShopCategory1} alt="Category" />
@@ -121,7 +121,7 @@ function Shop() {
                                     <div className="card-body text-center">
                                         <h4 className="card-title">Lingerie</h4>
                                         <p className="text-muted">Starting from $50</p>
-                                        <a className="btn btn-outline-primary btn-sm" href="" data-abc="true">View Products</a>
+                                        <a className="btn btn-outline-primary btn-sm" href="#!" data-abc="true">View Products</a>
                                     </div>
                                 </div>
                             </div>
@@ -134,7 +134,7 @@ function Shop() {
 
             {/*<div className="row">
                     <div className="col-md-4 col-sm-6">
-                        <div className="card mb-30"><a className="card-img-tiles" href="" data-abc="true">
+                        <div className="card mb-30"><a className="card-img-tiles" href="#!" data-abc="true">
                             <div className="inner">
                                 <div className="main-img">
                                     <img className="img-thumbnail custom-img" src={ShopCategory1} alt="Category" />
@@ -144,12 +144,12 @@ function Shop() {
                             <div className="card-body text-center">
                                 <h4 className="card-title">Lingerie</h4>
                                 <p className="text-muted">Starting from $50</p>
-                                <a className="btn btn-outline-primary btn-sm" href="" data-abc="true">View Products</a>
+                                <a className="btn btn-outline-primary btn-sm" href="#!" data-abc="true">View Products</a>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-4 col-sm-6">
-                        <div className="card mb-30"><a className="card-img-tiles" href="" data-abc="true">
+                        <div className="card mb-30"><a className="card-img-tiles" href="#!" data-abc="true">
                             <div className="inner">
                                 <div className="main-img">
                                     <img className="img-thumbnail custom-img" src={ShopCategory1} alt="Category" />
@@ -159,12 +159,12 @@ function Shop() {
                             <div className="card-body text-center">
                                 <h4 className="card-title">Lingerie</h4>
                                 <p className="text-muted">Starting from $50</p>
-                                <a className="btn btn-outline-primary btn-sm" href="" data-abc="true">View Products</a>
+                                <a className="btn btn-outline-primary btn-sm" href="#!" data-abc="true">View Products</a>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-4 col-sm-6">
-                        <div className="card mb-30"><a className="card-img-tiles" href="" data-abc="true">
+                        <div className="card mb-30"><a className="card-img-tiles" href="#!" data-abc="true">
                             <div className="inner">
                                 <div className="main-img">
                                     <img className="img-thumbnail custom-img" src={ShopCategory1} alt="Category" />
@@ -175,7 +175,7 @@ function Shop() {
                             <div className="card-body text-center">
                                 <h4 className="card-title">Lingerie</h4>
                                 <p className="text-muted">Starting from $9</p>
-                                <a className="btn btn-outline-primary btn-sm" href="" data-abc="true">View Products</a>
+                                <a className="btn btn-outline-primary btn-sm" href="#!" data-abc="true">View Products</a>
                             </div>
                         </div>
                     </div>
