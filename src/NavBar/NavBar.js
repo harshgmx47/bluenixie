@@ -60,7 +60,7 @@ const NavBar = () => {
             </div>
             <MDBNavbarItem className='socialIcon nav-item px-3 text-uppercase mb-0 position-relative d-lg-flex'>
               <FontAwesomeIcon  className="m-2" icon={faSearch} />
-              <input type="text"></input>
+              {/* <input type="text"></input> */}
             </MDBNavbarItem>
             <MDBNavbarItem className='socialIcon nav-item px-3 text-uppercase mb-0 position-relative d-lg-flex'>
             <a className='nav-link' href="WishList">

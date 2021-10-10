@@ -23,7 +23,7 @@ function Shop() {
                                         <div className="side-content">
                                             <ul className="list">
                                                 <li><span className="collasp">
-                                                    <a href="">Home</a></span>
+                                                    <a href="home">Home</a></span>
                                                     </li>
                                             </ul>
                                         </div>
@@ -91,7 +91,7 @@ function Shop() {
                                     <div className="card-body text-center">
                                         <h4 className="card-title">Lingerie</h4>
                                         <p className="text-muted">Starting from $50</p>
-                                        <a className="btn btn-outline-primary btn-sm" href="" data-abc="true">View Products</a>
+                                        <a className="btn btn-outline-primary btn-sm" href="product" data-abc="true">View Products</a>
                                     </div>
                                 </div>
                             </div>
