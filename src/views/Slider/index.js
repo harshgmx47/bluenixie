@@ -1,2 +1,3 @@
 export {default as Slider}from './Slider';
-export {default as Slider1}from './Slider1';
+export {default as Banner}from './Banner';
+export {default as MiddleBanner}from './MiddleBanner';

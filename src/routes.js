@@ -10,6 +10,7 @@ import { SignUp } from "./views/SignUp";
 import { ShoppingCart } from "./views/ShoppingCart";
 import { WishList } from "./views/WishList";
 import { Product } from "./views/Product";
+import MiddleBanner from "./views/Slider/MiddleBanner";
 
 
 
@@ -28,6 +29,7 @@ import { Product } from "./views/Product";
                  <Route exact path="/ShoppingCart" component={ShoppingCart} />
                  <Route exact path="/WishList" component={WishList} />
                  <Route exact path="/Product" component={Product} />
+                 <Route exact path="/MiddleBanner" component={MiddleBanner} />
                  
                  { <Route exact path="/">
                      <Redirect to="/Home" />

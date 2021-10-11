@@ -1,14 +1,11 @@
-
-import banner1 from './img/banner-1.jpg'
 //import banner2 from './img/banner-2.jpg'
-import smallimg1 from './img/small-img-1.jpg'
-import smallimg2 from './img/small-img-2.jpg'
 import newArrival from './img/new-arrival.jpg'
 import './App.css';
 // import Slider from './views/Slider/Slider';
 import Banner from './views/Slider/Banner';
 import NavBar from './NavBar/NavBar';
 import FootBar from './NavBar/FootBar';
+import MiddleBanner from './views/Slider/MiddleBanner';
 
 function App() {
   return (
@@ -21,64 +18,19 @@ function App() {
       </div>
      {/* Banner Section */}
 
-      
-<div className="row row-content">
 
-      <div
-        className='p-5 text-center bg-image col-lg-3'
-        style={{ height: 320 }}
-      >
-        <div className="position-relative">
-        <img src={smallimg1} className="img-fluid" alt="banner" />
-        <div className='mask'>
-          <div className='d-flex justify-content-center align-items-center'>
-            <div className='text-over'>
-             <h2>Clothing.No18</h2>
-             <h5>Sale Off 20% All Store</h5>
-            </div>
-          </div>
-        </div>
-        </div>
-      </div>
-      <div
-        className='p-5 text-center bg-image col-lg-6'
-        style={{ height: 320 }}
-      ><div className="position-relative">
-        <img src={banner1} className="smallimg" alt="banner" />
-        <div className='mask'>
-          <div className='d-flex justify-content-center align-items-center'>
-            <div className='text-over'>
-             <h2>Men’s Summer Sneaker</h2>
-             <h5>Big Sale Off This Week</h5>
-            </div>
-          </div>
-        </div>
-        </div>
-      </div>
-      <div
-        className='p-5 text-center bg-image col-lg-3'
-        style={{ height: 320 }}
-      >
-        <div className="position-relative">
-        <img src={smallimg2} className="smallimg" alt="banner" />
-        <div className='mask'>
-          <div className='d-flex justify-content-center align-items-center'>
-            <div className='text-over'>
-              <h2>Bag.No1</h2>
-              <h5>Big Sale No Limited</h5>
-            </div>
-          </div>
-        </div>
-        </div>
-      </div>
+<div >
+<MiddleBanner />
 </div>
-<div className="container">
-<div className="row">
-<div className="col-md-4 col-sm-7">
-            <div className="card mb-30"><a className="card-img-tiles" href="#!" data-abc="true">
+
+<div className="container  mb-10">
+<div className="row row-content mb-10">
+<div className="col-md-4 col-lg-4">
+            <div className="card mb-80 ">
+              <a className="card-img-resposive" href="#!" data-abc="true">
                     <div className="inner">
                         <div className="main-img">
-                            <img className="img-thumbnail custom-img" src={newArrival} alt="Category"/>
+                            <img className="img-fluid custom-img" src={"	https://prestashop.templatemela.com/PRS08/PRS080194/PRS02/img/p/1/7/0/170-home_default.jpg"} alt="Category"/>
                             </div>
                     </div>
                 </a>
@@ -90,10 +42,11 @@ function App() {
             </div>
         </div>
         <div className="col-md-4 col-sm-7">
-            <div className="card mb-30"><a className="card-img-tiles" href="#!" data-abc="true">
+            <div className="card mb-30">
+            <a className="card-img-resposive" href="#!" data-abc="true">
                     <div className="inner">
                         <div className="main-img">
-                            <img className="img-thumbnail custom-img" src={newArrival} alt="Category"/>
+                            <img className="img-fluid custom-img" src={"	https://prestashop.templatemela.com/PRS08/PRS080194/PRS02/img/p/1/7/0/170-home_default.jpg"} alt="Category"/>
                             </div>
                     </div>
                 </a>
@@ -105,10 +58,11 @@ function App() {
             </div>
         </div>
         <div className="col-md-4 col-sm-6">
-            <div className="card mb-30"><a className="card-img-tiles" href="#!" data-abc="true">
+            <div className="card mb-30">
+            <a className="card-img-resposive" href="#!" data-abc="true">
                     <div className="inner">
                         <div className="main-img">
-                            <img className="img-thumbnail custom-img" src={newArrival} alt="Category"/>
+                            <img className="img-fluid custom-img" src={"	https://prestashop.templatemela.com/PRS08/PRS080194/PRS02/img/p/1/7/0/170-home_default.jpg"} alt="Category"/>
                             </div>
                     </div>
                 </a>
