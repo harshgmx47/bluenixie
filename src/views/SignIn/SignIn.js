@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from '../../NavBar/NavBar';
 import FootBar from '../../NavBar/FootBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Link from "@material-ui/core/Link";
 
 function SignIn() {
     return (
@@ -31,9 +32,9 @@ function SignIn() {
                                 <button type="submit" className="btn btn-secondary">Sign in</button>
                                 </div>
                             <div className="col-md-7">
-                                     <a href="SignUp" className=" btn btn-primary text-monospace">
+                                     <Link href="SignUp" className=" btn btn-primary text-white text-monospace">
                                     Create a new Account..! Sign Up
-                                    </a>
+                                    </Link> 
                                
                                 </div>                          
                             </div>

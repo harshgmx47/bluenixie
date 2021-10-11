@@ -1,11 +1,14 @@
 import React from "react";
+import '../../App.css';
 import NavBar from '../../NavBar/NavBar';
 import FootBar from '../../NavBar/FootBar';
 
 function Contact() {
     return(
-        <div>
+        <div className="App">
+            <div>
         <NavBar />
+        </div>
         <div style={{margin:50}}>
         
         <div className="row">

@@ -3,6 +3,7 @@ import { CardImg, Card, Col, Container, Row, Tooltip } from 'react-bootstrap/';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { faHeart,faEye } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Link from "@material-ui/core/Link";
 function MiddleBanner() {
     return (
         <Container>
@@ -21,12 +22,12 @@ function MiddleBanner() {
                                     alt="Cms-banner-2.jpg"
                                 />
                                 <Card.Body className="view view-cascade text-center'">
-                                    <a href='#!' className='text-muted'>
+                                    <Link href='#!' className='text-muted'>
                                         <h5>Camera</h5>
-                                    </a>
+                                    </Link> 
                                     <Card.Title>
                                         <strong>
-                                            <a href='#!'>GoPro</a>
+                                            <Link href='#!'>GoPro</Link> 
                                         </strong>
                                     </Card.Title>
                                     <Card.Text>
@@ -57,12 +58,12 @@ function MiddleBanner() {
                                     alt="Cms-banner-2.jpg"
                                 />
                                 <Card.Body className="view view-cascade text-center'">
-                                    <a href='#!' className='text-muted'>
+                                    <Link href='#!' className='text-muted'>
                                         <h5>Camera</h5>
-                                    </a>
+                                    </Link> 
                                     <Card.Title>
                                         <strong>
-                                            <a href='#!'>GoPro</a>
+                                            <Link href='#!'>GoPro</Link> 
                                         </strong>
                                     </Card.Title>
                                     <Card.Text>
@@ -93,12 +94,12 @@ function MiddleBanner() {
                                     alt="Cms-banner-2.jpg"
                                 />
                                 <Card.Body className="view view-cascade text-center'">
-                                    <a href='#!' className='text-muted'>
+                                    <Link href='#!' className='text-muted'>
                                         <h5>Camera</h5>
-                                    </a>
+                                    </Link> 
                                     <Card.Title>
                                         <strong>
-                                            <a href='#!'>GoPro</a>
+                                            <Link href='#!'>GoPro</Link> 
                                         </strong>
                                     </Card.Title>
                                     <Card.Text>

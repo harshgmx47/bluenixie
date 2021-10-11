@@ -1,4 +1,6 @@
 import React from "react";
+import '../../App.css';
+import Link from "@material-ui/core/Link";
 import NavBar from '../../NavBar/NavBar';
 import FootBar from '../../NavBar/FootBar';
 //import ShopImg1 from '../../img/shop-img-1.jpg';
@@ -9,8 +11,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Shop() {
     return (
         <div>
+            <div>
             <NavBar />
-            <div className="container-fluid">
+            </div>
+            <div className="container-fluid py-4">
                 <section className="category">
                     <div className="container">
                         <div className="row">
@@ -23,7 +27,7 @@ function Shop() {
                                         <div className="side-content">
                                             <ul className="list">
                                                 <li><span className="collasp">
-                                                    <a href="home">Home</a></span>
+                                                    <Link href="home">Home</Link> </span>
                                                     </li>
                                             </ul>
                                         </div>
@@ -35,42 +39,42 @@ function Shop() {
                                                 <p>Brands</p>
                                                 <li>
                                                     <input type="radio" aria-label="radio button" />
-                                                    <a href="#!"> Apple</a>
+                                                    <Link href="#!"> Apple</Link> 
                                                 </li>
                                                 <li>
                                                     <input type="radio" aria-label="radio button" />
-                                                    <a href="#!">Rolex</a>
+                                                    <Link href="#!">Rolex</Link> 
                                                 </li>
                                                 <li>
                                                     <input type="radio" aria-label="radio button" />
-                                                    <a href="#!"> Rado</a>
+                                                    <Link href="#!"> Rado</Link> 
                                                 </li>
                                                 <li>
                                                     <input type="radio" aria-label="radio button" />
-                                                    <a href="#!">Seiko</a>
+                                                    <Link href="#!">Seiko</Link> 
                                                 </li>
                                                 <li>
                                                     <input type="radio" aria-label="radio button" />
-                                                    <a href="#!">Samsung</a>
+                                                    <Link href="#!">Samsung</Link> 
                                                 </li>
                                             </ul>
                                             <ul className="list">
                                                 <p>Color</p>
                                                 <li>
                                                     <input type="radio" aria-label="radio button" />
-                                                    <a href="#!">Black</a>
+                                                    <Link href="#!">Black</Link> 
                                                 </li>
                                                 <li>
                                                     <input type="radio" aria-label="radio button" />
-                                                    <a href="#!">Black Leather</a>
+                                                    <Link href="#!">Black Leather</Link> 
                                                 </li>
                                                 <li>
                                                     <input type="radio" aria-label="radio button" />
-                                                    <a href="#!">Gold</a>
+                                                    <Link href="#!">Gold</Link> 
                                                 </li>
                                                 <li>
                                                     <input type="radio" aria-label="radio button" />
-                                                    <a href="#!">Space grey</a>
+                                                    <Link href="#!">Space grey</Link> 
                                                 </li>
 
                                             </ul>
@@ -81,47 +85,48 @@ function Shop() {
                             <div className="col-lg-9">
                                 <div className="row">
                             <div className="col-12 col-sm-7 col-md-4 ">
-                                <div className="card mb-30"><a className="card-img-tiles" href="#!" data-abc="true">
+                                <div className="card mb-30"><Link className="card-img-tiles" href="#!" data-abc="true">
                                     <div className="inner">
                                         <div className="main-img">
                                             <img className="img-thumbnail custom-img" src={ShopCategory1} alt="Category" />
                                         </div>
                                     </div>
-                                </a>
+                                </Link> 
                                     <div className="card-body text-center">
                                         <h4 className="card-title">Lingerie</h4>
                                         <p className="text-muted">Starting from $50</p>
-                                        <a className="btn btn-outline-primary btn-sm" href="product" data-abc="true">View Products</a>
+                                        <Link className="btn btn-outline-primary btn-sm" href="product" data-abc="true">View Products</Link> 
                                     </div>
                                 </div>
                             </div>
                             <div className="col-12 col-sm-7 col-md-4 ">
-                                <div className="card mb-30"><a className="card-img-tiles" href="#!" data-abc="true">
+                                <div className="card mb-30">
+                                    <Link className="card-img-tiles" href="#!" data-abc="true">
                                     <div className="inner">
                                         <div className="main-img">
                                             <img className="img-thumbnail custom-img" src={ShopCategory1} alt="Category" />
                                         </div>
                                     </div>
-                                </a>
+                                </Link> 
                                     <div className="card-body text-center">
                                         <h4 className="card-title">Lingerie</h4>
                                         <p className="text-muted">Starting from $50</p>
-                                        <a className="btn btn-outline-primary btn-sm" href="#!" data-abc="true">View Products</a>
+                                        <Link className="btn btn-outline-primary btn-sm" href="#!" data-abc="true">View Products</Link> 
                                     </div>
                                 </div>
                             </div>
                             <div className="col-12 col-sm-7 col-md-4 ">
-                                <div className="card mb-30"><a className="card-img-tiles" href="#!" data-abc="true">
+                                <div className="card mb-30"><Link className="card-img-tiles" href="#!" data-abc="true">
                                     <div className="inner">
                                         <div className="main-img">
                                             <img className="img-thumbnail custom-img" src={ShopCategory1} alt="Category" />
                                         </div>
                                     </div>
-                                </a>
+                                </Link> 
                                     <div className="card-body text-center">
                                         <h4 className="card-title">Lingerie</h4>
                                         <p className="text-muted">Starting from $50</p>
-                                        <a className="btn btn-outline-primary btn-sm" href="#!" data-abc="true">View Products</a>
+                                        <Link className="btn btn-outline-primary btn-sm" href="#!" data-abc="true">View Products</Link> 
                                     </div>
                                 </div>
                             </div>
@@ -134,54 +139,55 @@ function Shop() {
 
             {/*<div className="row">
                     <div className="col-md-4 col-sm-6">
-                        <div className="card mb-30"><a className="card-img-tiles" href="#!" data-abc="true">
+                        <div className="card mb-30"><Link className="card-img-tiles" href="#!" data-abc="true">
                             <div className="inner">
                                 <div className="main-img">
                                     <img className="img-thumbnail custom-img" src={ShopCategory1} alt="Category" />
                                 </div>
                             </div>
-                        </a>
+                        </Link> 
                             <div className="card-body text-center">
                                 <h4 className="card-title">Lingerie</h4>
                                 <p className="text-muted">Starting from $50</p>
-                                <a className="btn btn-outline-primary btn-sm" href="#!" data-abc="true">View Products</a>
+                                <Link className="btn btn-outline-primary btn-sm" href="#!" data-abc="true">View Products</Link> 
                             </div>
                         </div>
                     </div>
                     <div className="col-md-4 col-sm-6">
-                        <div className="card mb-30"><a className="card-img-tiles" href="#!" data-abc="true">
+                        <div className="card mb-30"><Link className="card-img-tiles" href="#!" data-abc="true">
                             <div className="inner">
                                 <div className="main-img">
                                     <img className="img-thumbnail custom-img" src={ShopCategory1} alt="Category" />
                                 </div>
                             </div>
-                        </a>
+                        </Link> 
                             <div className="card-body text-center">
                                 <h4 className="card-title">Lingerie</h4>
                                 <p className="text-muted">Starting from $50</p>
-                                <a className="btn btn-outline-primary btn-sm" href="#!" data-abc="true">View Products</a>
+                                <Link className="btn btn-outline-primary btn-sm" href="#!" data-abc="true">View Products</Link> 
                             </div>
                         </div>
                     </div>
                     <div className="col-md-4 col-sm-6">
-                        <div className="card mb-30"><a className="card-img-tiles" href="#!" data-abc="true">
+                        <div className="card mb-30"><Link className="card-img-tiles" href="#!" data-abc="true">
                             <div className="inner">
                                 <div className="main-img">
                                     <img className="img-thumbnail custom-img" src={ShopCategory1} alt="Category" />
 
                                 </div>
                             </div>
-                        </a>
+                        </Link> 
                             <div className="card-body text-center">
                                 <h4 className="card-title">Lingerie</h4>
                                 <p className="text-muted">Starting from $9</p>
-                                <a className="btn btn-outline-primary btn-sm" href="#!" data-abc="true">View Products</a>
+                                <Link className="btn btn-outline-primary btn-sm" href="#!" data-abc="true">View Products</Link> 
                             </div>
                         </div>
                     </div>
                 </div>*/}
-
+            <div className="App">
             <FootBar />
+            </div>
         </div>
     );
 };

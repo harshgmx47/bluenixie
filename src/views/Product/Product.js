@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from '../../NavBar/NavBar';
 import FootBar from '../../NavBar/FootBar';
+import Link from "@material-ui/core/Link";
 import './product.css'
 import { img, Container, Row, Col, Button } from 'react-bootstrap/';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -21,33 +22,33 @@ function Product() {
                         <Col xs={6} md={4}>
                             <div className="col-12 mb-0">
                                 <figure className="view overlay rounded z-depth-1 main-img">
-                                    <a href="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/15a.jpg"
+                                    <Link href="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/15a.jpg"
                                         data-size="710x823">
                                         <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/15a.jpg"
                                             className="img-fluid z-depth-1 " alt="" />
-                                    </a>
+                                    </Link> 
                                 </figure>
                                 
                                 {/* <figure className="view overlay rounded z-depth-1" >
-                                    <a href="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/12a.jpg"
+                                    <Link href="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/12a.jpg"
                                         data-size="710x823">
                                         <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/12a.jpg"
                                             className="img-fluid z-depth-1" />
-                                    </a>
+                                    </Link> 
                                 </figure>
                                 <figure className="view overlay rounded z-depth-1">
-                                    <a href="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13a.jpg"
+                                    <Link href="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13a.jpg"
                                         data-size="710x823">
                                         <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13a.jpg"
                                             className="img-fluid z-depth-1" />
-                                    </a>
+                                    </Link> 
                                 </figure>
                                 <figure className="view overlay rounded z-depth-1" >
-                                    <a href="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/14a.jpg"
+                                    <Link href="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/14a.jpg"
                                         data-size="710x823">
                                         <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/14a.jpg"
                                             className="img-fluid z-depth-1" />
-                                    </a>
+                                    </Link> 
                                 </figure> */}
                             
                         </div>

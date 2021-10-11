@@ -1,16 +1,16 @@
 import React from "react";
+import '../../App.css';
 import NavBar from '../../NavBar/NavBar';
-import FootBar from '../../NavBar/FootBar';
 import Link from "@material-ui/core/Link";
+import FootBar from '../../NavBar/FootBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function SignUp() {
-    return(
-        <div className="App">
-        <div className="container-fluid">
-            <header className="row-header ">
+function Order() {
+    return (
+        <div>
+            <div>
                 <NavBar />
-            </header>
+            </div>
             <div className="container">
                 <div className="row justify-content-center align-items mb-5">
                     <div className="col-sm-7 col-md-6">
@@ -43,45 +43,61 @@ function SignUp() {
                                     <input type="text" className="form-control" id="inputLn" />
                                 </div>
                             </div>
-                            
                             <div className="row  justify-content-center align-items mb-3">
-                                <label for="inputEmail3" className="col-md-3 col-form-label">Email</label>
+                                <label for="inputCom" className="col-md-3 col-form-label">Company</label>
                                 <div className="col-sm-7">
-                                    <input type="email" className="form-control" id="inputEmail3" />
+                                    <input type="text" className="form-control" id="inputCom" />
                                 </div>
                             </div>
                             <div className="row  justify-content-center align-items mb-3">
-                                <label for="inputPassword3" className="col-md-3  col-form-label">Password</label>
+                                <label for="inputAdd" className="col-md-3 col-form-label">Address</label>
                                 <div className="col-sm-7">
-                                    <input type="password" className="form-control" id="inputPassword3" value=""/>
+                                    <textarea type="text" className="form-control" id="inputAdd" />
                                 </div>
-                            </div> 
+                            </div>
                             <div className="row  justify-content-center align-items mb-3">
-                                <label for="inputBd" className="col-md-3 col-form-label">Birth Date</label>
+                                <label for="inputCt" className="col-md-3 col-form-label">City</label>
                                 <div className="col-sm-7">
-                                    <input type="date" className="form-control" id="inputBd" />
+                                    <input type="text" className="form-control" id="inputCt" />
+                                </div>
+                            </div>
+                            <div className="row  justify-content-center align-items mb-3">
+                                <label for="inputSt" className="col-md-3 col-form-label">State</label>
+                                <div className="col-sm-7">
+                                    <input type="text" className="form-control" id="inputSt" />
+                                </div>
+                            </div>
+                            <div className="row  justify-content-center align-items mb-3">
+                                <label for="inputCoun" className="col-md-3 col-form-label">Country</label>
+                                <div className="col-sm-7">
+                                    <input type="text" className="form-control" id="inputCoun" readonly value="India"/>
+                                </div>
+                            </div>
+                            <div className="row  justify-content-center align-items mb-3">
+                                <label for="inputPc" className="col-md-3 col-form-label">Pincode</label>
+                                <div className="col-sm-7">
+                                    <input type="number" maxlength="6" className="form-control" id="inputPc" />
                                 </div>
                             </div>
                             <div className="row justify-content-center align-items">
-                                <div className="col-md-3">
-                                <button type="submit" className="btn btn-secondary">Sign up</button>
+                                <div className="col-md-4">
+                                <button type="submit" className="btn btn-secondary">Submit</button>
 
-                                </div>
-                            <div className="col-md-7">
-                            <Link href="SignIn" className="text-monospace text-white btn btn-primary">
-                                Already have Account...! Sign In
-                                </Link> 
-                                </div>                          
+                                </div>                     
                                 </div>
                         </form>
                     </div>
                 </div>
 
             </div>
-            </div>
-            <FootBar />             
-</div>
-       
-    );
+                        <div className="App">
+                            <FootBar />
+                        </div>
+                        </div>
+                
+               
+              
+                    
+                    );
 };
-export default SignUp; 
+ export default Order;

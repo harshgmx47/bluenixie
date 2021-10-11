@@ -1,10 +1,11 @@
 //import banner2 from './img/banner-2.jpg'
-import newArrival from './img/new-arrival.jpg'
+// import newArrival from './img/new-arrival.jpg'
 import './App.css';
 // import Slider from './views/Slider/Slider';
 import Banner from './views/Slider/Banner';
 import NavBar from './NavBar/NavBar';
 import FootBar from './NavBar/FootBar';
+import Link from "@material-ui/core/Link";
 import MiddleBanner from './views/Slider/MiddleBanner';
 
 function App() {
@@ -27,49 +28,49 @@ function App() {
 <div className="row row-content mb-10">
 <div className="col-md-4 col-lg-4">
             <div className="card mb-80 ">
-              <a className="card-img-resposive" href="#!" data-abc="true">
+              <Link className="card-img-resposive" href="#!" data-abc="true">
                     <div className="inner">
                         <div className="main-img">
                             <img className="img-fluid custom-img" src={"	https://prestashop.templatemela.com/PRS08/PRS080194/PRS02/img/p/1/7/0/170-home_default.jpg"} alt="Category"/>
                             </div>
                     </div>
-                </a>
+                </Link> 
                 <div className="card-body text-center">
                     <h4 className="card-title">ELIZA-BNF 357 MAROON</h4>
                     <p className="text-muted">₹399</p>
-                    <a className="btn btn-outline-primary btn-sm" href="product" data-abc="true">View Products</a>
+                    <Link className="btn btn-outline-primary btn-sm" href="product" data-abc="true">View Products</Link> 
                 </div>
             </div>
         </div>
         <div className="col-md-4 col-sm-7">
             <div className="card mb-30">
-            <a className="card-img-resposive" href="#!" data-abc="true">
+            <Link className="card-img-resposive" href="#!" data-abc="true">
                     <div className="inner">
                         <div className="main-img">
                             <img className="img-fluid custom-img" src={"	https://prestashop.templatemela.com/PRS08/PRS080194/PRS02/img/p/1/7/0/170-home_default.jpg"} alt="Category"/>
                             </div>
                     </div>
-                </a>
+                </Link> 
                 <div className="card-body text-center">
                     <h4 className="card-title">ELIZA-BNF 357 MAROON</h4>
                     <p className="text-muted">₹399</p>
-                    <a className="btn btn-outline-primary btn-sm" href="#!" data-abc="true">View Products</a>
+                    <Link className="btn btn-outline-primary btn-sm" href="#!" data-abc="true">View Products</Link> 
                 </div>
             </div>
         </div>
         <div className="col-md-4 col-sm-6">
             <div className="card mb-30">
-            <a className="card-img-resposive" href="#!" data-abc="true">
+            <Link className="card-img-resposive" href="#!" data-abc="true">
                     <div className="inner">
                         <div className="main-img">
                             <img className="img-fluid custom-img" src={"	https://prestashop.templatemela.com/PRS08/PRS080194/PRS02/img/p/1/7/0/170-home_default.jpg"} alt="Category"/>
                             </div>
                     </div>
-                </a>
+                </Link> 
                 <div className="card-body text-center">
                     <h4 className="card-title">ELIZA-BNF 357 MAROON</h4>
                     <p className="text-muted">₹399</p>
-                    <a className="btn btn-outline-primary btn-sm" href="#!" data-abc="true">View Products</a>
+                    <Link className="btn btn-outline-primary btn-sm" href="#!" data-abc="true">View Products</Link> 
                 </div>
             </div>
         </div>

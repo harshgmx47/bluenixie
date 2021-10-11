@@ -50,9 +50,9 @@ return(
             <div className='text-white'>
               <h1 className='mb-3'>Top Trending</h1>
               <h4 className='mb-3'>Pink Color</h4>
-              <a className='btn btn-outline-light btn-lg' href='#!' role='button'>
+              <Link className='btn btn-outline-light btn-lg' href='#!' role='button'>
                 Discover Now
-              </a>
+              </Link> 
             </div>
           </div>
         </div>

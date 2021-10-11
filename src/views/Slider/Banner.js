@@ -2,6 +2,7 @@
 import { React, useState } from 'react';
 import { Carousel } from 'react-bootstrap/';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Link from "@material-ui/core/Link";
 
 
 function Banner() {
@@ -27,9 +28,9 @@ function Banner() {
                                 <div className='text-black'>
                                     <h1 className='mb-3'>Top Trending</h1>
                                     <h4 className='mb-3'>Pink Color</h4>
-                                    <a className='btn btn-dark btn-lg' href='#!' role='button'>
+                                    <Link className='btn btn-dark btn-lg' href='#!' role='button'>
                                         Discover Now
-                                    </a>
+                                    </Link> 
                                 </div>
                             </div>
                         </div> */}
@@ -48,9 +49,9 @@ function Banner() {
                                 <div className='text-black'>
                                     {/* <h1 className='mb-3'>Top Trending</h1>
                                     <h4 className='mb-3'>Pink Color</h4> */}
-                                    <a className='btn btn-dark btn-lg' href='#!' role='button'>
+                                    <Link className='btn btn-dark btn-lg' href='#!' role='button'>
                                         Discover Now
-                                    </a>
+                                    </Link> 
                                 </div>
                             </div>
                         </div>
