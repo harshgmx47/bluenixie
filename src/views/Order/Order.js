@@ -1,7 +1,7 @@
 import React from "react";
 import '../../App.css';
 import NavBar from '../../NavBar/NavBar';
-import Link from "@material-ui/core/Link";
+// import { BrowserRouter as Router,Link } from 'react-router-dom';
 import FootBar from '../../NavBar/FootBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 

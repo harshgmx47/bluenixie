@@ -5,7 +5,7 @@ import NavBar from '../../NavBar/NavBar';
 import FootBar from '../../NavBar/FootBar';
 //import ShopImg1 from '../../img/shop-img-1.jpg';
 //import ShopImg2 from '../../img/shop-img-2.jpg';
-import ShopCategory1 from '../../img/shop-category-1.jpg';
+// import ShopCategory1 from '../../img/shop-category-1.jpg';
 import './shop.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 function Shop() {
@@ -88,7 +88,7 @@ function Shop() {
                                 <div className="card mb-30"><Link className="card-img-tiles" href="#!" data-abc="true">
                                     <div className="inner">
                                         <div className="main-img">
-                                            <img className="img-thumbnail custom-img" src={ShopCategory1} alt="Category" />
+                                            <img className="img-thumbnail custom-img" src={"https://prestashop.templatemela.com/PRS08/PRS080194/PRS02/img/p/1/7/0/170-large_default.jpg"} alt="Category" />
                                         </div>
                                     </div>
                                 </Link> 
@@ -104,7 +104,7 @@ function Shop() {
                                     <Link className="card-img-tiles" href="#!" data-abc="true">
                                     <div className="inner">
                                         <div className="main-img">
-                                            <img className="img-thumbnail custom-img" src={ShopCategory1} alt="Category" />
+                                            <img className="img-thumbnail custom-img" src={"https://prestashop.templatemela.com/PRS08/PRS080194/PRS02/img/p/1/7/0/170-large_default.jpg"} alt="Category" />
                                         </div>
                                     </div>
                                 </Link> 
@@ -119,7 +119,7 @@ function Shop() {
                                 <div className="card mb-30"><Link className="card-img-tiles" href="#!" data-abc="true">
                                     <div className="inner">
                                         <div className="main-img">
-                                            <img className="img-thumbnail custom-img" src={ShopCategory1} alt="Category" />
+                                            <img className="img-thumbnail custom-img" src={"https://prestashop.templatemela.com/PRS08/PRS080194/PRS02/img/p/1/7/0/170-large_default.jpg"} alt="Category" />
                                         </div>
                                     </div>
                                 </Link> 

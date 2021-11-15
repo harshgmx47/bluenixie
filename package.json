@@ -1,5 +1,6 @@
 {
   "name": "bluenixie",
+  "homepage": "http://harshgmx47.github.io/bluenixie",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +13,7 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "bootstrap": "^5.1.1",
+    "gh-pages": "^3.2.3",
     "mdb-react-ui-kit": "^1.4.0",
     "mdbootstrap": "^4.20.0",
     "react": "^17.0.2",
@@ -25,6 +27,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

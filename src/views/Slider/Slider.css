@@ -89,5 +89,12 @@
     overflow: hidden;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   }
+
+  custom-btn{
+    margin: 0 auto;
+    padding: 0;
+    width: 20px;
+      
+  }
   
  

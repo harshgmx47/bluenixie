@@ -2,7 +2,8 @@
 import { React, useState } from 'react';
 import { Carousel } from 'react-bootstrap/';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Link from "@material-ui/core/Link";
+// import { BrowserRouter as Router,Link } from 'react-router-dom';
+
 
 
 function Banner() {
@@ -43,15 +44,17 @@ function Banner() {
                         alt="Second slide"
                     />
 
-                    <Carousel.Caption>
+                    <Carousel.Caption >
                         <div className='mask'>
-                            <div className='d-flex bottom-0 position-absolute m-5'>
+                            <div className='d-flex bottom-0 '>
                                 <div className='text-black'>
                                     {/* <h1 className='mb-3'>Top Trending</h1>
                                     <h4 className='mb-3'>Pink Color</h4> */}
-                                    <Link className='btn btn-dark btn-lg' href='#!' role='button'>
+                                    {/* <Router>
+                                    <Link className='btn btn-dark btn-sm' style={{}} to="" role='button'>
                                         Discover Now
                                     </Link> 
+                                    </Router> */}
                                 </div>
                             </div>
                         </div>

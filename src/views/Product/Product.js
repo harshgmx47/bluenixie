@@ -19,13 +19,14 @@ function Product() {
                 {/* Block content section */}
                 <Container >
                     <Row className="mb-5 mt-5">
-                        <Col xs={6} md={4}>
-                            <div className="col-12 mb-0">
+                        <Col xs={6} md={4} >
+                            <div >
+                            <div className="col-12 main-img mb-0">
                                 <figure className="view overlay rounded z-depth-1 main-img">
-                                    <Link href="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/15a.jpg"
+                                    <Link href="#1"
                                         data-size="710x823">
-                                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/15a.jpg"
-                                            className="img-fluid z-depth-1 " alt="" />
+                                        <img src="https://prestashop.templatemela.com/PRS08/PRS080194/PRS02/img/p/1/7/0/170-large_default.jpg"
+                                            className="img-fluid cusotm-img-size z-depth-1 " alt="" />
                                     </Link> 
                                 </figure>
                                 
@@ -52,32 +53,32 @@ function Product() {
                                 </figure> */}
                             
                         </div>
-                        <div className="col-12">
+                        <div className="col-12 extra-img">
                             <div className="row">
                                 <div className="col-3">
                                     <div className="view overlay rounded z-depth-1 gallery-item">
-                                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/12a.jpg"
+                                        <img src="https://prestashop.templatemela.com/PRS08/PRS080194/PRS02/img/p/1/7/0/170-large_default.jpg"
                                             className="img-fluid" alt=""/>
                                         <div class="mask rgba-white-slight"></div>
                                     </div>
                                 </div>
                                 <div className="col-3">
                                     <div className="view overlay rounded z-depth-1 gallery-item">
-                                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13a.jpg"
+                                        <img src="https://prestashop.templatemela.com/PRS08/PRS080194/PRS02/img/p/1/7/0/170-large_default.jpg"
                                             className="img-fluid" alt=""/>
                                         <div className="mask rgba-white-slight" ></div>
                                     </div>
                                 </div>
                                 <div className="col-3">
                                     <div className="view overlay rounded z-depth-1 gallery-item">
-                                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/14a.jpg"
+                                        <img src="https://prestashop.templatemela.com/PRS08/PRS080194/PRS02/img/p/1/7/0/170-large_default.jpg"
                                             className="img-fluid" alt=""/>
                                         <div className="mask rgba-white-slight"></div>
                                     </div>
                                 </div>
                                 <div className="col-3">
                                     <div className="view overlay rounded z-depth-1 gallery-item">
-                                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/15a.jpg"
+                                        <img src="https://prestashop.templatemela.com/PRS08/PRS080194/PRS02/img/p/1/7/0/170-large_default.jpg"
                                             className="img-fluid" alt="" />
                                         <div class ="mask rgba-white-slight">
 
@@ -86,11 +87,14 @@ function Product() {
                                 </div>
                             </div>
                         </div>
+                        </div>
                 </Col>
-                <Col xs={6} md={6}>
-                    <h3 className="h5">Curabitur Dolor Nunc</h3>
+                <Col></Col>
+                <Col xs={6} md={6} >
+                    <div className="pro_desc" >
+                    <h3 className="h5 pro_desc">Curabitur Dolor Nunc</h3>
                     <p className="mb-2 text-muted text-uppercase small">Shirts</p>
-                    <div className="product-price">
+                    <div className="product-price pro_desc">
                         <div className="product-price h5 has-discount">
                             <div className="current-price">
                                 <span className="align-items-cnter" content="19.12">₹19.12</span>
@@ -101,8 +105,8 @@ function Product() {
                             <span className="regular-price h6 ml-8">₹23.90</span>
                         </div>
                     </div>
-                    <div className="product-information col-md-12">
-                        <p className="pt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sapiente illo. Sit
+                    <div className="pro_desc col-md-12">
+                        <p className="pt-1 h6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sapiente illo. Sit
                             error voluptas repellat rerum quidem, soluta enim perferendis voluptates laboriosam. Distinctio,
                             officia quis dolore quos sapiente tempore alias.</p>
                         <div>
@@ -164,12 +168,14 @@ function Product() {
                             </MDBTable>
                         </div>
                         {/* BUYNOW AND ADDTOCART BUTTONS */}
+                        <div>
                         <button type="button" className="btn btn-primary btn-md mr-2 mb-2 custom-button"><span className="p-2">Buy now</span></button>
                         <button type="button" className="btn btn-light btn-md mr-2 mb-2 custom-button">
                             <i className="p-2"><FontAwesomeIcon icon={faShoppingCart} /></i>Add to cart</button>
+                        </div>
                         {/* BUYNOW AND ADDTOCART BUTTONS */}
                     </div>
-
+                </div>
                 </Col>
 
             </Row>

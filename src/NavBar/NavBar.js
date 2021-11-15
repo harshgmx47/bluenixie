@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "@material-ui/core/Link";
 import logo from '../img/logo.png';
-
 import {
   MDBNavbar,
   MDBNavbarNav,
@@ -21,9 +20,9 @@ const NavBar = () => {
         <MDBContainer fluid >
           {/* {Brandh Logo} */}
           <div className="container justify-content-center align-items-center">
-            <div className="row row-header">
+            <div className="row">
               <Link className="navbar-brand " href="Home">
-                <img className="logo img-responsive" src={logo} height="" alt="mdb logo" />
+                <img className="logo img-responsive mt-3" src={logo}  alt="mdb logo" />
               </Link>
             </div>
           </div>
@@ -52,13 +51,16 @@ const NavBar = () => {
               <MDBNavbarLink className="small-font-navbar nav-link" href='contact'>Contact Us</MDBNavbarLink>
             </MDBNavbarItem>
           </MDBNavbarNav>
-
-          <MDBNavbarNav className='container navbar-nav justify-content-end flex-row align-items-center '>
-            <div className="px-3">
-              <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+          <MDBNavbar className="navbar-nav justify-content-end flex-row align-items-center">
+          <div className="px-3">
+              <button className="navbar-toggler mt-3" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span className="navbar-toggler-icon"></span>
               </button>
             </div>
+          </MDBNavbar>
+
+          <MDBNavbarNav className='container navbar-nav justify-content-end flex-row align-items-center '>
+            
             <MDBNavbarItem className='socialIcon nav-item px-3 text-uppercase mb-0 position-relative d-lg-flex'>
               <FontAwesomeIcon className="m-2" icon={faSearch} />
               {/* <input type="text"></input> */}

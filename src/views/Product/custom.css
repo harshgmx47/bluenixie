@@ -1,0 +1,223 @@
+/********************************************************
+			Templatemela Custom Styles
+********************************************************/
+.tm-carousel {
+  position: relative;
+  float: left;
+  width: 100%;
+  margin: 0;
+  -ms-touch-action: pan-y;
+  display: none;
+}
+.owl-carousel .owl-wrapper {
+  display: none;
+  position: relative;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.owl-carousel .owl-wrapper-outer {
+  overflow: hidden;
+  position: relative;
+  float: left;
+  width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight {
+  -webkit-transition: height 500ms ease-in-out;
+  -moz-transition: height 500ms ease-in-out;
+  -ms-transition: height 500ms ease-in-out;
+  -o-transition: height 500ms ease-in-out;
+  transition: height 500ms ease-in-out;
+}
+.owl-carousel .owl-item {
+  float: left;
+}
+.owl-carousel .owl-item .manu_image a {
+  display: inline-block;
+}
+.owl-carousel .owl-item .manu_image a img {
+  max-width: 100%;
+}
+.owl-carousel .owl-item:hover a img {
+  border-color: blue;
+}
+.owl-carousel .owl-wrapper,
+.owl-carousel .owl-item {
+  /* fix */
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  text-align: center;
+}
+
+/* mouse grab icon */
+.grabbing {
+  cursor: url("../img/megnor/grabbing.png") 8 8, move;
+}
+.customNavigation {
+  position: relative;
+  z-index: 5;
+  width: 100%;
+  direction: ltr !important;
+  text-align: center;
+  display: inline-block;
+  margin: 0 0 10px;
+}
+.quickview .mask .customNavigation {
+  top: 45%;
+}
+.customNavigation a.prev {
+  height: 20px;
+  width: 38px;
+  background: transparent url("../img/megnor/pro-arrow.png") no-repeat 0 5px;
+}
+.js-qv-mask.mask.additional_slider .customNavigation{
+	position: absolute;
+	top: 55%;
+  width: 100%;
+  right: 0;
+}
+.js-qv-mask.mask.additional_slider .customNavigation a, .tmcategorylist .customNavigation a {
+  position: absolute;
+}
+.brands .customNavigation {
+  top: 45%;
+  width: 100%;
+  position: absolute;
+  display: block;
+  margin: 0;
+  opacity: 0;
+  -khtml-opacity: 0;
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+}
+.brands .customNavigation a.prev{
+  right: auto !important;
+  left: 0 !important;
+}
+.brands .customNavigation a.next{
+  right: 0px !important;
+  left: auto !important;
+}
+.brands .customNavigation a.prev::before,
+.js-qv-mask.additional_slider .customNavigation a.prev::before,
+.tmcategorylist .customNavigation a.prev::before{
+  display: none;
+}
+.brands .customNavigation a{
+  position: absolute;
+}
+.tmcategorylist .customNavigation {
+  margin: 0 0 20px;
+}
+.js-qv-mask.additional_slider .customNavigation a.prev, .tmcategorylist .customNavigation a.prev {
+  left: 0 !important;
+  right: auto !important;
+}
+.js-qv-mask.additional_slider .customNavigation a.next, .tmcategorylist .customNavigation a.next {
+  right: 0px !important;
+  left: auto !important;
+}
+.tmcategory-container:hover .customNavigation, .brands:hover .customNavigation {
+  opacity: 1;
+  -khtml-opacity: 1;
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+}
+
+.tmcategorylist .customNavigation {
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  right: 0;
+  top: 53%;
+  opacity: 0;
+  -khtml-opacity: 0;
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+}
+
+#tmtestimonialcmsblock .customNavigation {
+  top: -55px;
+  text-align: right;
+  position: absolute;
+  width: auto;
+  right: 0;
+  margin: 0;
+}
+
+
+#tmtestimonialcmsblock .customNavigation a.prev {
+  background: url(../img/megnor/pro-arrow.png) no-repeat scroll 0 5px;
+}
+#tmtestimonialcmsblock .customNavigation a.next {
+  background: url(../img/megnor/pro-arrow.png) no-repeat scroll -43px 5px;
+  right: 0 !important;
+}
+#tmtestimonialcmsblock .customNavigation a.prev:hover {
+  background-position: 0 -75px;
+}
+#tmtestimonialcmsblock .customNavigation a.next:hover {
+  background-position: -43px -75px;
+}
+#tmtestimonialcmsblock .customNavigation a.prev::before{
+  background: #ededed;
+}
+
+.customNavigation a.prev:hover {
+  background-position: 0 -75px;
+}
+.customNavigation a.next {
+  height: 20px;
+  width: 22px;
+  background: transparent url("../img/megnor/pro-arrow.png") no-repeat -43px 5px;
+}
+.customNavigation a.next:hover {
+  background-position: -43px -75px;
+}
+.customNavigation a.prev::before {
+  content: '';
+  position: absolute;
+  right: 5px;
+  left: auto;
+  top: 3px;
+  bottom: auto;
+  height: 15px;
+  width: 1px;
+  background: #dbdbdb;
+}
+
+
+.customNavigation a {
+  display: inline-block;
+  position: relative;
+  font-size: 0;
+  padding: 0;
+  border: none !important;
+}
+
+@media (max-width: 991px){
+  #tmtestimonialcmsblock .customNavigation {
+    top: 0;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .brands .customNavigation, .tmcategorylist .customNavigation {
+    opacity: 1;
+    -khtml-opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+  }
+}
+

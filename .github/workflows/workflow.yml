@@ -1,0 +1,24 @@
+name: Github Pages Deploy
+
+on:
+ push:
+    - "main"
+
+jobs:
+   build:
+    runs-on: ubuntu-latest
+
+    stratergy:
+      matrix:
+        node-version: [15.x]
+
+steps:
+  - name: Checkout
+    uses: actions/checkout@
+
+  - name: Install and build
+    run: npm install && npm run build
+
+  - name: Deploy
+    branch: 
+
