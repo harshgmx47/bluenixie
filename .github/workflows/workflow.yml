@@ -1,27 +1,28 @@
 name: Github Pages Deploy
 
+
 on:
- push:
-    - "main"
+    push:
+     branches:
+        - "main"
 
 jobs:
-   build:
-    runs-on: ubuntu-latest
+     build:
+      runs-on: ubuntu-latest
 
-    stratergy:
-      matrix:
-        node-version: [15.x]
+      strategy:
+         matrix:
+          node-version: [15.x]
+      steps:
+      - name: Checkout
+        uses: actions/checkout@vl
 
-steps:
-  - name: Checkout
-    uses: actions/checkout@
+      - name: Install and build
+        run: npm install && npm run build
 
-  - name: Install and build
-    run: npm install && npm run build
-
-  - name: Deploy
-    uses: harshgmx47/github-pages-deploy-action@4.1.1
-  with:
-    branch: gh-pages
-    folder: build
+      - name: Deploy
+        uses: harshgmx47/github-pages-deploy-action@4.1.1
+        with:  
+             branch: gh-pages
+             folder: build
 
