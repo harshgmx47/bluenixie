@@ -20,5 +20,8 @@ steps:
     run: npm install && npm run build
 
   - name: Deploy
-    branch: 
+    uses: harshgmx47/github-pages-deploy-action@4.1.1
+  with:
+    branch: gh-pages
+    folder: build
 
